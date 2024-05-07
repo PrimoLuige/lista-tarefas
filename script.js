@@ -17,8 +17,8 @@ $(document).ready(function(){
     
         $(document).ready(function(){
             $('li').click(function(){
-                $('this').css('text-decoration', 'line-through');
-                $('this').css('background-color', '#6ee24a')
+                $(this).css('text-decoration', 'line-through');
+                $(this).css('background-color', '#6ee24a')
             });
         });
     });
